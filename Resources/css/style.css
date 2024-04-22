@@ -1,0 +1,87 @@
+html, body{
+
+    font-family:'Courier New', Courier, monospace;
+    text-align:center;
+
+    font-size:25px;
+    word-spacing:25%;
+    letter-spacing:2em;
+    line-height:5em;
+
+    border: 5mm ridge rgb(109, 57, 90);
+
+    background-color: rgb(163, 189, 189);
+
+    /*comment in css is different than in html*/
+    /*basically its just the comment block from c++*/
+
+}
+
+#processing{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    
+    font-size: 15px;
+    word-spacing: 15%;
+    letter-spacing: 2em;
+    line-height: 3em;
+
+    border: 20px dashed rgb(164, 227, 150);
+
+    background-color: rgb(112, 169, 138);
+
+}
+
+#image1{
+
+    text-align: right;
+    padding: 3%;
+    border: 8px dotted rgb(10, 61, 0);
+    margin: 25px;
+
+    background-size: cover;
+    background-image: url("../korb.jpeg");
+
+}
+
+#image2 img{
+
+    text-align: center;
+    padding: 10%;
+    border: 3px dotted rgb(91, 137, 230);
+    margin: 10px;
+
+    background-color: rgb(214, 86, 184,.3);
+
+}
+
+#image3{
+
+    text-align: left;
+    padding: 5%;
+    border: 3px dashed rgb(152, 97, 188);
+    margin: 0px;
+
+}
+
+#video{
+
+    text-align: left;
+    background-color: rgb(25, 108, 2,.25);
+
+}
+
+video{
+
+    margin: 25px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 27%;
+    padding-right: 27%;
+    border: thick double rgb(215, 215, 77);
+
+    background-size: cover;
+    background-image: url("../duck.jpeg");
+
+}
